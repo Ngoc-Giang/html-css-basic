@@ -1,0 +1,112 @@
+html {
+    font-size: 14px;
+    font-weight: 200px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0,0,0,0.3); */
+    background-image: url(https://i.ytimg.com/vi/BMBeMBoJv1s/maxresdefault.jpg);
+    opacity: 0.4;
+    
+}
+
+.modal__signup {
+    
+}
+
+.modal__signup-div {
+    position: relative;
+    width: 400px;
+    min-height: 400px; 
+    background-color: white ;
+    opacity: 0.8;
+    margin: auto;
+    top: 80px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(209, 194, 194, 0.4);
+
+    
+}
+
+.modal__signup-header {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 16px;
+}
+
+.modal__signup-nav {
+    padding: 0 32px;
+    
+}
+
+.modal__signup-info {
+
+}
+
+.modal__signup-text {
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px; 
+    padding-left: 8px; 
+    margin-top: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.modal__signup-text:focus {
+    border-color: black;
+}
+
+.modal__signup-chechbox {
+    accent-color:#0000ff ;
+}
+
+.modal__signup-gender {
+
+}
+
+.modal__signup-choose {
+    accent-color: #0000ff;
+    
+}
+
+.modal__signup-footer {
+    display: flex;
+    padding: 16px 32px;
+    justify-content: flex-end;
+    
+}
+
+.modal__signup-btn-signup {
+    padding: 12px;
+    background-color: #0c84ce;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-right: 12px;
+    
+}
+
+.modal__signup-btn-signup:hover {
+    background-color: #71b3dc;
+    color: #000;
+}
+.modal__signup-btn-signin {
+    margin-top: 10px;
+    background-color: #fff;
+    color: #0c84ce;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+

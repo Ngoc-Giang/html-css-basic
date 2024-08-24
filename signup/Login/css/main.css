@@ -1,0 +1,138 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-total {
+    text-align: center;
+    
+}
+
+.login-form {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://ik.imagekit.io/tvlk/blog/2022/08/bien-long-hai-1.jpg");
+    opacity: 0.5;
+}
+
+
+.login-information {
+    position: relative;
+    margin: auto;
+    /* background-color: #fff; */
+    background-image: url("https://img.powerpoint.com.vn/uploads/2019/06/09/hinh-nen-powerpoint-bo-bien-thuyen-dau_092718601.jpg");
+    /* Độ mờ */
+    opacity: 0.7;
+    width: 400px;
+    min-height: 400px;
+    z-index: 5px;
+    border-radius: 5px;
+}
+
+.login-information-btn {
+    padding: 0 34px;
+}
+
+.login-information-header {
+    text-align: center;
+    padding-top: 12px;
+    
+}
+
+.login-header {
+    font-weight: 800px;
+}
+
+
+.login-body {
+
+}
+
+.login-input {
+   margin-bottom: 12px;
+
+}
+
+.login-user {
+    width: 100%;
+    font-size: 13px;
+    padding: 8px;
+    outline: none;
+    border-radius: 4px;
+    
+}
+
+.login-user:focus {
+    border-color: 1px solid #000;
+}
+
+.login-forgot {
+    display: flex;
+    justify-content:flex-end;
+    align-content: space-between;
+    margin-bottom: 100px;
+}
+
+.login-remember {
+    /* màu của khung checkbox */
+    accent-color: #0000ff;
+}
+
+.login-space {
+    /* border-left: 1px solid #ccc; */
+    height: 18px;
+    padding: 0 40px;
+}
+
+.login-forgot-password {
+    text-decoration: none;
+    color: rgb(206, 43, 43);
+}
+
+.login-footer {
+    display: flex;
+    justify-content:flex-end;
+    align-content: space-between;
+    
+}
+
+.login-btn {
+    margin: 0 8px;
+    padding: 10px 18px;
+    width: 160px;
+}
+
+.login-btn.login-btn-login {
+    background-color:rgba(97, 200, 238,0.7);
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 16px;
+
+}
+
+.login-btn-signup {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-btn.login-btn-dangnhap:hover {
+    background-color:rgb(143, 212, 236); 
+    color: #000;
+    cursor: pointer;
+}
+
+.login-btn-dangky:hover {
+    background-color: rgba(110, 106, 106, 0.4);
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
